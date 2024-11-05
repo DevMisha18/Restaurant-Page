@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  color: #d5d5d5;
+  background-color: #2a2a2b;
+}
+
+body {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin: .3rem auto;
+}
+
+button {
+  width: 33.3%;
+  padding: .8rem 0;
+  color: #e9e9e9;
+  background-color: #2a2a2b;
+  font-size: 1.5rem;
+  border: 0 none;
+  outline: .3rem solid #d5d5d5;
+  &:hover {
+    cursor: pointer;
+    background-color: #404042;
+  }
+}

@@ -1,0 +1,30 @@
+#content {
+  display: flex;
+  flex-direction: column;
+  & > img:first-child {
+    width: 20%;
+    margin: 2rem auto;
+  }
+  & h1 { font-size: 5rem; }
+  & h3 {
+    font-size: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  border-top: .6rem solid #d5d5d5;
+  & p {
+    padding: 0 8%;
+    font-size: 1.5rem;
+  }
+  &:last-of-type { border-bottom: .6rem solid #d5d5d5; }
+}
+
+
+img {
+  width: 50vw;
+}
